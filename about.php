@@ -115,7 +115,7 @@
 <div class="row">
   <div class="column">
     <div class="card">
-      <img src="sarthak.jpg" alt="Sarthak" style="width:100%">
+      <img src="images/sarthak.jpg" alt="Sarthak" style="width:100%">
       <div class="container">
         <h2>Sarthak Mishra</h2>
         <p class="title">Page creater</p>
@@ -126,7 +126,7 @@
   </div>
   <div class="column">
     <div class="card">
-      <img src="sarthak.jpg" alt="Sarthak" style="width:100%">
+      <img src="images/sarthak.jpg" alt="Sarthak" style="width:100%">
       <div class="container">
         <h2>Sarthak Mishra</h2>
         <p class="title">Page creater</p>
@@ -137,7 +137,7 @@
   </div>
   <div class="column">
     <div class="card">
-      <img src="sarthak.jpg" alt="Sarthak" style="width:100%">
+      <img src="images/sarthak.jpg" alt="Sarthak" style="width:100%">
       <div class="container">
         <h2>Sarthak Mishra</h2>
         <p class="title">Page creater</p>

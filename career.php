@@ -20,6 +20,13 @@
         background-repeat: no-repeat;
         background-size: cover;
       }
+      .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height:270px;
+}
     </style>
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -27,9 +34,15 @@
 </head>
 <body>
     <div class="container1 container-fluid">
-    <div class="bg-image"></div>
+    <!--<div class="bg-image"></div>-->
+    <div style="height:270px,background-position: center, background-size: cover;">
+    <video height="100%" class="center" autoplay muted loop>
+   <source src="20220122_1080p.mp4" type="video/mp4">
+   Your browser does not support the video tag.
+</video>
+  </div>
 
-    <div class="bg-text">
+    <!--<div class="bg-text">
       <div class="logo-holder logo">
               <a href="#">
                 <h3><strong>Job</strong> <span>Portal</span></h3>
@@ -37,7 +50,7 @@
       </div>
       <p style="font-size: 30px;">Best jobs available matching your skills!</p>
     </div>
-    </div>
+    </div>-->
             <div class="container2 container-fluid">
             <?php 
                   $mysqli = new mysqli('localhost:3308', 'root', '', 'jobs');
